@@ -5,59 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="PlanXFlow - Software Development Lifecycle for Engineering AI Planning Systems">
+  <meta name="description" content="PlanXFlow is a structured, waterfall-like yet iterative software development lifecycle for engineering AI planning systems across ten phases.">
+  <meta name="keywords" content="PlanXFlow, AI planning, software development lifecycle, planning model, provenance data, planning systems, AI engineering">
+  <meta name="author" content="PlanX-Universe, Ilche Georgievski">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PlanX-Universe">
+  <meta property="og:title" content="PlanXFlow">
+  <meta property="og:description" content="A software development lifecycle designed for engineering AI planning systems.">
+  <meta property="og:url" content="https://github.com/PlanX-Universe/PlanXFlow">
+  <meta property="og:image" content="https://github.com/user-attachments/assets/73a7636d-29a0-41e1-a9e2-a83cd6f6d48f">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="og:image:alt" content="PlanXFlow lifecycle diagram">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="PlanXFlow">
+  <meta name="twitter:description" content="Software development lifecycle for engineering AI planning systems.">
+  <meta name="twitter:image" content="https://github.com/user-attachments/assets/73a7636d-29a0-41e1-a9e2-a83cd6f6d48f">
+  <meta name="twitter:image:alt" content="PlanXFlow lifecycle diagram">
 
-  <!-- Academic/Research Specific -->
+  <!-- Irrelevant paper-specific citation meta tags intentionally commented out for this repository page. -->
+  <!--
   <meta name="citation_title" content="PAPER_TITLE">
   <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
   <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
   <meta name="citation_publication_date" content="2024">
   <meta name="citation_conference_title" content="CONFERENCE_NAME">
   <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  -->
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -69,16 +50,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <!-- Adobe document preview preconnect is not required for this repository page. -->
+  <!-- <link rel="preconnect" href="https://documentcloud.adobe.com"> -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>PlanXFlow | Engineering AI Planning Systems Lifecycle</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="static/images/planx-universe-logo.jpg?v=3">
+  <link rel="icon" type="image/jpeg" sizes="16x16" href="static/images/planx-universe-logo.jpg?v=3">
+  <link rel="shortcut icon" href="static/images/planx-universe-logo.jpg?v=3">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/planx-universe-logo.jpg?v=3">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -99,65 +82,51 @@
   </noscript>
   
   <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <!-- Adobe PDF viewer script is not needed on this page. -->
+  <!-- <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script> -->
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
   
-  <!-- Structured Data for Academic Papers -->
+  <!-- Structured Data for Software Project -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
+    "@type": "SoftwareSourceCode",
+    "name": "PlanXFlow",
+    "description": "PlanXFlow is a software development lifecycle designed for engineering AI planning systems.",
+    "codeRepository": "https://github.com/PlanX-Universe/PlanXFlow",
+    "url": "https://github.com/PlanX-Universe/PlanXFlow",
+    "image": "https://github.com/user-attachments/assets/73a7636d-29a0-41e1-a9e2-a83cd6f6d48f",
+    "keywords": ["AI planning", "software lifecycle", "PlanXFlow", "planning model", "provenance"],
+    "programmingLanguage": "Markdown",
+    "license": "https://github.com/PlanX-Universe/PlanXFlow/blob/main/LICENSE",
+    "isAccessibleForFree": true,
+    "author": {
+      "@type": "Person",
+      "name": "Ilche Georgievski"
+    },
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "PlanX-Universe"
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+      "@id": "https://github.com/PlanX-Universe/PlanXFlow"
     },
     "about": [
       {
         "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
+        "name": "AI Planning"
       },
       {
         "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
+        "name": "Software Engineering"
       }
     ]
   }
@@ -168,12 +137,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "name": "PlanX-Universe",
+    "url": "https://github.com/PlanX-Universe",
+    "logo": "https://github.com/PlanX-Universe.png",
     "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
+      "https://github.com/PlanX-Universe"
     ]
   }
   </script>
@@ -188,45 +156,40 @@
 
   <!-- More Works Dropdown -->
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View PlanXFlow resources">
+      <i class="fas fa-link"></i>
+      Resources
       <i class="fas fa-chevron-down dropdown-arrow"></i>
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
       <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
+        <h4>PlanXFlow Resources</h4>
         <button class="close-btn" onclick="toggleMoreWorks()">
           <i class="fas fa-times"></i>
         </button>
       </div>
       <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://github.com/PlanX-Universe/PlanXFlow" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <h5>Code</h5>
+            <p>Browse the source code for PlanXFlow.</p>
+            <span class="work-venue">GitHub</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+        <a href="https://github.com/PlanX-Universe/PlanXFlow#readme" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>README</h5>
+            <p>Read documentation and usage details for PlanXFlow.</p>
+            <span class="work-venue">Documentation</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+        <a href="https://github.com/PlanX-Universe/PlanXFlow/blob/main/LICENSE" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>MIT License</h5>
+            <p>View the project license terms.</p>
+            <span class="work-venue">License</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -235,76 +198,59 @@
   </div>
 
   <main id="main-content">
-  <section class="hero">
+  <section class="hero hero-top">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">PlanXFlow</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=RN7G80gAAAAJ&hl=en" target="_blank">Ilche Georgievski</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                  <a href="https://github.com/PlanX-Universe" target="_blank">PlanX-Universe</a><sup>2</sup></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>University of Stuttgart, Institute of Architecture of Application Systems (IAAS), Service Computing</span><br>
+              
+                  </div>
+
+                  <div class="is-size-6 publication-authors">
+                    <span class="author-block">Contact: <a href="mailto:ilche.georgievski@iaas.uni-stuttgart.de">ilche.georgievski@iaas.uni-stuttgart.de</a> | <a href="https://ilche.mk/" target="_blank">Website</a></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://github.com/PlanX-Universe/PlanXFlow" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
+                          <i class="fab fa-github"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Code</span>
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://github.com/PlanX-Universe/PlanXFlow#readme" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-book"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>README</span>
                     </a>
                   </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/PlanX-Universe/PlanXFlow/blob/main/LICENSE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fas fa-balance-scale"></i>
                     </span>
-                    <span>Code</span>
+                    <span>MIT License</span>
                   </a>
                 </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -314,163 +260,155 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+<!-- Irrelevant template media sections are intentionally commented out for PlanXFlow. -->
+<!--
+<section class="hero teaser">...</section>
+<section class="hero is-small">...</section>
+<section class="hero is-small is-light">...</section>
+-->
 
-<!-- Paper abstract -->
+<!-- Overview -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Welcome to PlanXFlow, a software development lifecycle designed for engineering AI planning systems. PlanXFlow provides a structured, waterfall-like yet iterative approach tailored to the unique challenges in AI planning.
+          </p>
+          <p>
+            The lifecycle encompasses ten phases, guiding practitioners and researchers from conceptualization and design to deployment, monitoring, and analysis. It acts as a foundational guide that helps establish a common language among stakeholders and improves traceability and reproducibility in AI planning projects.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
+<!-- End overview -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
+<!-- Lifecycle diagram -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
+      <h2 class="title is-3 has-text-centered">PlanXFlow Lifecycle</h2>
+      <figure class="image planx-lifecycle-figure">
+        <img class="planx-lifecycle-image" src="https://github.com/user-attachments/assets/73a7636d-29a0-41e1-a9e2-a83cd6f6d48f" alt="PlanXFlow ten-phase lifecycle diagram" loading="lazy"/>
+      </figure>
+      <h2 class="subtitle has-text-centered">
+        The ten-phase lifecycle diagram from the official PlanXFlow repository.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End lifecycle diagram -->
+
+
+<!-- The Ten Phases -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="content">
+      <h2 class="title is-3 has-text-centered">The Ten Phases</h2>
+      <ol>
+        <li><strong>Requirements Analysis</strong>: Identify functional, non-functional, domain, and user requirements for the planning system.</li>
+        <li><strong>AI Planning Model Formulation</strong>: Define a suitable planning model based on planning type, world context, and user features.</li>
+        <li><strong>Domain Model Design</strong>: Formalize domain knowledge using planning languages such as PDDL, HPDL, or HDDL.</li>
+        <li><strong>System Design and Architecture</strong>: Design architecture and workflows that integrate planning functionalities and services.</li>
+        <li><strong>Planning Technology Selection</strong>: Evaluate and select existing planning tools before building new components.</li>
+        <li><strong>Implementation</strong>: Develop planning components, communication mechanisms, and supporting artifacts.</li>
+        <li><strong>Testing</strong>: Validate requirements with both isolated and integration testing across domains and workflows.</li>
+        <li><strong>Deployment</strong>: Install and configure components for reliable execution environments.</li>
+        <li><strong>Monitoring</strong>: Collect and process provenance data to improve quality, reproducibility, and explainability.</li>
+        <li><strong>Analysis</strong>: Analyze provenance and system behavior to drive iterative improvement.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+<!-- End The Ten Phases -->
+
+
+<!-- Innovative Elements and Core Features -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-4">Innovative Elements</h2>
+          <ul>
+            <li><strong>Planning Model</strong>: Captures the interplay among planning type, world context, and user features.</li>
+            <li><strong>Technology Selection</strong>: Emphasizes systematic selection of planning technologies.</li>
+            <li><strong>Provenance Data</strong>: Supports traceability of data sources and transformations throughout the lifecycle.</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h2 class="title is-4">Core Features</h2>
+          <ul>
+            <li><strong>Adaptability</strong>: Tailor phases to specific project needs.</li>
+            <li><strong>Scalability</strong>: Expand or condense lifecycle phases by project scale.</li>
+            <li><strong>Transparency</strong>: Maintain clear and understandable process steps.</li>
+            <li><strong>Future-Proof</strong>: Keep workflows easy to upgrade over time.</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End innovative/core features -->
+
+
+<!-- Engagement and Contribution -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="content">
+      <h2 class="title is-3 has-text-centered">Engagement and Contribution</h2>
+      <p>
+        Your experience and insights are valuable to the evolution of PlanXFlow. Whether used in industry or academia, feedback helps improve the lifecycle for the broader community.
+      </p>
+      <p>
+        For industrial applications, share how PlanXFlow was integrated and adapted in your systems. For academic use, please cite the following references.
+      </p>
+      <ol>
+        <li>Georgievski, I. Software Development Lifecycle for Engineering AI Planning Systems. International Conference on Software Technologies, pages 751-760, 2023.</li>
+        <li>Georgievski, I. Conceptualising Software Development Lifecycle for Engineering AI Planning Systems. IEEE/ACM International Conference on AI Engineering - Software Engineering for AI, pages 88-89, 2023.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+<!-- End engagement and contribution -->
+
+
+<!-- Irrelevant template-only media sections intentionally commented out. -->
+<!--
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
           <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+        <div id="results-carousel" class="carousel results-carousel">...</div>
       </div>
     </div>
   </section>
-<!--End paper poster -->
+
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+        <iframe src="static/pdfs/sample.pdf" width="100%" height="550"></iframe>
+      </div>
+    </div>
+  </section>
+  -->
 
 
-
-<!--BibTex citation -->
+  <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -480,16 +418,26 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>@inproceedings{georgievski2023softtech,
+    title={Software Development Lifecycle for Engineering AI Planning Systems},
+    author={Georgievski, Ilche},
+    booktitle={International Conference on Software Technologies},
+    pages={751--760},
+    year={2023}
+  }
+
+  @inproceedings{georgievski2023caine,
+    title={Conceptualising Software Development Lifecycle for Engineering AI Planning Systems},
+    author={Georgievski, Ilche},
+    booktitle={IEEE/ACM International Conference on AI Engineering -- Software Engineering for AI},
+    pages={88--89},
+    year={2023}
+  }</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
+  <!--End BibTex citation -->
+
+  </main>
 
 
   <footer class="footer">
