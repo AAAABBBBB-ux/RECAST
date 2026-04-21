@@ -3,183 +3,357 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+
+  <meta name="title" content="Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection">
+  <meta name="description" content="Banshee is the first physically realizable attack that induces target switching in UAV visual tracking systems by exploiting acoustic vulnerabilities in gimbal-camera systems, achieving 95.5% real-world attack success rate.">
+  <meta name="keywords" content="acoustic attack, UAV security, gimbal, visual tracking, adversarial attack, drone security, IMU spoofing, target switch">
+  <meta name="author" content="Jiarui Li, Joseph Brewington, Qingzhao Zhang, Z. Morley Mao">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:site_name" content="University of Michigan / University of Arizona">
+  <meta property="og:title" content="Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection">
+  <meta property="og:description" content="Banshee is the first physically realizable attack that induces target switching in UAV visual tracking systems via acoustic injection, achieving 95.5% real-world attack success rate.">
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/banshee">
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="og:image:alt" content="Banshee Attack Overview">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Jiarui Li">
+  <meta property="article:section" content="Security Research">
+  <meta property="article:tag" content="acoustic attack">
+  <meta property="article:tag" content="UAV security">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
   <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:creator" content="@YOUR_TWITTER_HANDLE">
+  <meta name="twitter:title" content="Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection">
+  <meta name="twitter:description" content="First physically realizable acoustic attack achieving target switch in UAV visual tracking. 95.5% real-world success rate. IEEE S&P 2026.">
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:image:alt" content="Banshee Attack Overview">
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="citation_title" content="Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection">
+  <meta name="citation_author" content="Li, Jiarui">
+  <meta name="citation_author" content="Brewington, Joseph">
+  <meta name="citation_author" content="Zhang, Qingzhao">
+  <meta name="citation_author" content="Mao, Z. Morley">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="IEEE Symposium on Security and Privacy">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/banshee.pdf">
+
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="msapplication-TileColor" content="#1a1a2e">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection | IEEE S&P 2026</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
+
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
+
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
-  <!-- Fonts - Optimized loading -->
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
+
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection",
+    "description": "Banshee is the first physically realizable attack that induces target switching in UAV visual tracking systems by exploiting acoustic vulnerabilities in gimbal-camera systems.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      {"@type": "Person", "name": "Jiarui Li", "affiliation": {"@type": "Organization", "name": "University of Michigan"}},
+      {"@type": "Person", "name": "Joseph Brewington", "affiliation": {"@type": "Organization", "name": "University of Michigan"}},
+      {"@type": "Person", "name": "Qingzhao Zhang", "affiliation": {"@type": "Organization", "name": "The University of Arizona"}},
+      {"@type": "Person", "name": "Z. Morley Mao", "affiliation": {"@type": "Organization", "name": "University of Michigan"}}
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
+    "datePublished": "2026-01-01",
+    "publisher": {"@type": "Organization", "name": "IEEE Symposium on Security and Privacy"},
+    "url": "https://YOUR_DOMAIN.com/banshee",
+    "keywords": ["acoustic attack", "UAV security", "gimbal", "visual tracking", "adversarial attack", "drone security"],
+    "isAccessibleForFree": true
   }
   </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+
+  <style>
+    /* ── Banshee-specific overrides ── */
+    :root {
+      --banshee-red: #c0392b;
+      --banshee-dark: #1a1a2e;
+      --banshee-blue: #2563eb;
+      --banshee-light-bg: #f8f9fa;
+    }
+
+    .hero.is-dark-custom {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+
+    .publication-title {
+      font-family: 'Georgia', serif;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .publication-title .banshee-name {
+      font-family: 'Courier New', monospace;
+      color: #e74c3c;
+      font-style: normal;
+    }
+
+    .venue-badge {
+      display: inline-block;
+      background: linear-gradient(90deg, #c0392b, #e74c3c);
+      color: white;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.3rem 0.9rem;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      margin-bottom: 1rem;
+    }
+
+    /* Stats bar */
+    .stats-bar {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--banshee-red);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: #666;
+      font-weight: 500;
+      margin-top: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Section headers */
+    .section-title-accent {
+      border-left: 4px solid var(--banshee-red);
+      padding-left: 0.75rem;
+    }
+
+    /* Figure placeholders */
+    .figure-placeholder {
+      background: linear-gradient(135deg, #e8ecf0, #d1d9e0);
+      border: 2px dashed #aab;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      color: #7a8a99;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .figure-placeholder i {
+      font-size: 3rem;
+      margin-bottom: 0.75rem;
+      opacity: 0.5;
+    }
+
+    .figure-placeholder .placeholder-label {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .video-placeholder {
+      background: linear-gradient(135deg, #1a1a2e, #0f3460);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 360px;
+      color: #8ab;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .video-placeholder i {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: #e74c3c;
+      opacity: 0.8;
+    }
+
+    .video-placeholder .placeholder-label {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #cde;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Contribution cards */
+    .contribution-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      border-top: 3px solid var(--banshee-red);
+      height: 100%;
+    }
+
+    .contribution-card .card-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+      color: var(--banshee-red);
+    }
+
+    .contribution-card h4 {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+      color: #1a1a2e;
+    }
+
+    .contribution-card p {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Result table styling */
+    .results-table {
+      font-size: 0.9rem;
+    }
+
+    .results-table thead th {
+      background: var(--banshee-dark);
+      color: white;
+      font-weight: 600;
+      border: none;
+    }
+
+    .results-table tbody tr:hover {
+      background: #f0f4ff;
+    }
+
+    .highlight-row {
+      background: #fff3f3 !important;
+      font-weight: 700;
+      border-left: 3px solid var(--banshee-red);
+    }
+
+    /* Attack stage cards */
+    .stage-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      position: relative;
+    }
+
+    .stage-number {
+      background: var(--banshee-red);
+      color: white;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    /* BibTeX */
+    #bibtex-code {
+      background: #1e2433;
+      color: #a8d8a8;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      line-height: 1.7;
+      padding: 1.5rem;
+    }
+
+    .bibtex-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .copy-bibtex-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.9rem;
+      background: var(--banshee-dark);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+
+    .copy-bibtex-btn:hover { background: #333; }
+
+    /* Teaser caption */
+    .teaser-caption {
+      background: rgba(255,255,255,0.95);
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      border-left: 4px solid var(--banshee-red);
+      font-size: 0.92rem;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-
 
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
@@ -204,21 +378,17 @@
         <!-- TODO: Replace with your lab's related works -->
         <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
             <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
             <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <span class="work-venue">Conference/Journal 2025</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
         <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Paper Title 2</h5>
             <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <span class="work-venue">Conference/Journal 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -226,7 +396,7 @@
           <div class="work-info">
             <h5>Paper Title 3</h5>
             <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <span class="work-venue">Conference/Journal 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -235,286 +405,587 @@
   </div>
 
   <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
+
+  <!-- ── HERO ── -->
+  <section class="hero is-dark-custom">
+    <div class="hero-body" style="padding: 3rem 1.5rem 2rem;">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+            <div class="venue-badge">
+              <i class="fas fa-award" style="margin-right:0.4rem;"></i>
+              IEEE Symposium on Security and Privacy 2026
+            </div>
+            <h1 class="title is-1 publication-title" style="color:white; font-size:2.4rem; line-height:1.25; margin-bottom:1.5rem;">
+              <span class="banshee-name">Banshee</span>: Target Switch Attacks on<br>
+              Gimbal-Stabilized Visual Tracking Systems<br>
+              via Acoustic Injection
+            </h1>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors" style="margin-bottom:0.5rem;">
+              <span class="author-block" style="color:#cde;">
+                <a href="https://AUTHOR_LINK" target="_blank" style="color:#7ec8e3;">Jiarui Li</a>,&nbsp;
+              </span>
+              <span class="author-block" style="color:#cde;">
+                <a href="https://AUTHOR_LINK" target="_blank" style="color:#7ec8e3;">Joseph Brewington</a>,&nbsp;
+              </span>
+              <span class="author-block" style="color:#cde;">
+                <a href="https://AUTHOR_LINK" target="_blank" style="color:#7ec8e3;">Qingzhao Zhang</a><sup style="color:#e74c3c;">*</sup>,&nbsp;
+              </span>
+              <span class="author-block" style="color:#cde;">
+                <a href="https://AUTHOR_LINK" target="_blank" style="color:#7ec8e3;">Z. Morley Mao</a><sup style="color:#e74c3c;">*</sup>
+              </span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="is-size-6" style="color:#8ab; margin-bottom:0.25rem;">
+              University of Michigan &nbsp;·&nbsp; The University of Arizona
+            </div>
+            <div class="is-size-7" style="color:#678; margin-bottom:1.5rem;">
+              <sup style="color:#e74c3c;">*</sup> Corresponding authors
+            </div>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+            <div class="column has-text-centered" style="padding:0;">
+              <div class="publication-links">
+                <!-- TODO: Update with arXiv paper ID when available -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/ARXIV_ID.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
+                <!-- TODO: Add supplementary material if available -->
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Supplementary</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Replace with actual GitHub repo -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR_REPO" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
+                <!-- TODO: Update with arXiv paper ID when available -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
             </div>
+
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
 
+  <!-- ── TEASER ── -->
+  <section class="hero teaser" style="background:#f4f6f9;">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
 
+        <!-- TODO: Replace with teaser video (e.g., a short demo of target switch attack) -->
+        <div class="video-placeholder" style="min-height:420px;">
+          <i class="fas fa-play-circle"></i>
+          <div class="placeholder-label">Teaser Video</div>
+          <div style="font-size:0.85rem; margin-top:0.5rem; max-width:400px;">
+            Replace with a short demo video showing Banshee causing a UAV to switch from the true target to the attacker-selected false target.
+          </div>
+          <div style="font-size:0.75rem; margin-top:0.75rem; color:#7a8fa0;">
+            Suggested: static/videos/teaser.mp4
+          </div>
+        </div>
+        <!-- Uncomment and use when video is ready:
+        <video poster="static/images/teaser_poster.jpg" id="teaser-video" autoplay controls muted loop height="100%" preload="metadata">
+          <source src="static/videos/teaser.mp4" type="video/mp4">
+        </video>
+        -->
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
+        <div class="teaser-caption">
+          <strong>Figure: Illustration of Banshee in UAV target following.</strong>
+          Crafted acoustic signals induce the UAV's visual tracker to switch from the original (true) target to an attacker-controlled object (<em>Target Switch</em>), or lose track entirely (<em>Target Loss</em>). Banshee exploits acoustic vulnerabilities in gimbal-stabilized camera systems to achieve this cross-domain attack.
+        </div>
+
+        <!-- Key stats -->
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-number">95.5%</div>
+            <div class="stat-label">Real-world Attack Success</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">93.6%</div>
+            <div class="stat-label">Simulation Success Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Trackers Evaluated</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Commercial Drones Tested</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">Black-box</div>
+            <div class="stat-label">Attack Knowledge</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABSTRACT ── -->
+  <section class="section hero is-light" id="abstract">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 section-title-accent" style="display:inline-block;">Abstract</h2>
+          <div class="content has-text-justified" style="font-size:1rem; line-height:1.75; margin-top:1rem;">
+            <p>
+              Gimbal-stabilized visual tracking is critical for modern autonomous systems such as Unmanned Aerial Vehicles (UAVs). While prior work shows acoustic signals can disrupt gimbal internals, the impact of such attacks on real-world applications like UAV tracking and following remains underexplored. Existing demonstrations largely overlook practical challenges for real-world attacks, such as object-motion uncertainty and runtime latency.
+            </p>
+            <p>
+              To bridge this gap, we present <strong><span style="font-family:'Courier New',monospace; color:#c0392b;">Banshee</span></strong>, the first physically realizable attack that induces target switching in UAV visual tracking systems by exploiting acoustic vulnerabilities in gimbal-camera systems. Banshee generates carefully crafted acoustic waveforms that induce optimized adversarial gimbal oscillations, causing directionally biased camera-view drifts that break inter-frame target associations. Consequently, the onboard tracker is driven to switch from the original target to an attacker-selected object with high probability, with occasional target loss.
+            </p>
+            <p>
+              Banshee achieves a <strong>93.6%</strong> success rate in simulation across two commercial gimbal systems and five trackers. Real-world benchtop and in-flight black-box attacks against a commercial drone across varied scenarios show an overall <strong>95.5%</strong> attack success rate. Our results reveal a practical cross-domain vulnerability between acoustics and vision, highlighting the need for robust designs of gimbal systems and applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── KEY CONTRIBUTIONS ── -->
+  <section class="section" id="contributions" style="background: #fff;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom:2rem;">Key Contributions</h2>
+      <div class="columns is-multiline">
+        <div class="column is-half">
+          <div class="contribution-card">
+            <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+            <h4>First End-to-End Acoustic Tracking Attack</h4>
+            <p>We design Banshee, the first end-to-end attack using acoustic injection to compromise UAV visual tracking, bridging gimbal-level hardware vulnerabilities to application-level impacts.</p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="contribution-card">
+            <div class="card-icon"><i class="fas fa-wave-square"></i></div>
+            <h4>Systematic Gimbal Motion Modeling</h4>
+            <p>We propose the first systematic method to empirically model gimbal motion under acoustic injection. Using offline profiling and online phase modulation, the attacker can induce consistent, directionally biased gimbal angular offsets in real time.</p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="contribution-card">
+            <div class="card-icon"><i class="fas fa-drone-alt"></i></div>
+            <h4>High-Fidelity Simulation Evaluation</h4>
+            <p>We extensively evaluate Banshee in high-fidelity simulation (Gazebo + PX4-Autopilot) with realistic simulation of gimbal vulnerability, demonstrating effectiveness across 5 trackers, 2 drone models, and 4 environments.</p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="contribution-card">
+            <div class="card-icon"><i class="fas fa-satellite"></i></div>
+            <h4>Real-World Physical Validation</h4>
+            <p>We demonstrate real-world online attacks on a commercial drone achieving 95.5% success, including in-flight black-box target switch attacks, validating practical feasibility of the proposed attack.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SYSTEM OVERVIEW ── -->
+  <section class="section" id="overview" style="background: var(--banshee-light-bg);">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom:0.5rem;">System Overview</h2>
+      <p class="has-text-centered" style="color:#666; margin-bottom:2rem;">Banshee operates in two stages: offline gimbal profiling followed by an online attack.</p>
+
+      <!-- System diagram placeholder -->
+      <div class="figure-placeholder" style="min-height:340px; margin-bottom:2rem;">
+        <i class="fas fa-project-diagram"></i>
+        <div class="placeholder-label">Figure 2: Overview of Banshee Attack Pipeline</div>
+        <div style="font-size:0.82rem; margin-top:0.5rem; max-width:480px;">
+          Replace with the system diagram showing: Offline Gimbal Profiling (gimbal acoustic response model) feeding into the Online Attack with two parallel loops — Surrogate Tracking Loop and Planning-Execution Loop — that drive the acoustic injection module.
+        </div>
+        <div style="font-size:0.75rem; margin-top:0.75rem; color:#8a9aaa;">
+          Suggested: static/images/system_overview.png
+        </div>
+      </div>
+
+      <div class="columns is-variable is-4">
+        <div class="column">
+          <div class="stage-card">
+            <div class="stage-number">1</div>
+            <h3 class="title is-5" style="color:var(--banshee-dark);">Offline Gimbal Profiling</h3>
+            <p style="font-size:0.9rem; color:#555; line-height:1.7;">
+              The attacker uses an identical gimbal device to empirically learn a black-box mapping from acoustic signals to induced gimbal motion — the <strong>Gimbal Acoustic Response Model (GARM)</strong>. This involves:
+            </p>
+            <ul style="font-size:0.88rem; color:#555; margin-top:0.75rem; padding-left:1.2rem;">
+              <li style="margin-bottom:0.4rem;"><strong>Frequency sweep</strong>: identify resonant frequencies most effective at driving gimbal oscillations</li>
+              <li style="margin-bottom:0.4rem;"><strong>Amplitude sweep</strong>: learn the linear relationship between injected signal amplitude and induced gimbal motion amplitude</li>
+              <li><strong>Phase modulation</strong>: enable real-time directional control of gimbal motion</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="stage-card">
+            <div class="stage-number">2</div>
+            <h3 class="title is-5" style="color:var(--banshee-dark);">Online Attack</h3>
+            <p style="font-size:0.9rem; color:#555; line-height:1.7;">
+              The attacker runs two parallel loops to corrupt tracking in real time:
+            </p>
+            <ul style="font-size:0.88rem; color:#555; margin-top:0.75rem; padding-left:1.2rem;">
+              <li style="margin-bottom:0.4rem;"><strong>Surrogate Tracking Loop</strong>: maintains a black-box replica of the UAV's onboard tracker using external 3D object detection and estimated gimbal camera view</li>
+              <li><strong>Planning-Execution Loop</strong>: optimizes acoustic waveforms to maximize the probability of target switch, then immediately injects them via speaker or piezoelectric transducer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ATTACK MECHANISM ── -->
+  <section class="section" id="mechanism" style="background:#fff;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom:2rem;">How the Attack Works</h2>
+
+      <div class="columns is-variable is-5 is-vcentered" style="margin-bottom:3rem;">
+        <div class="column is-half">
+          <!-- TODO: Replace with Figure 3 from the paper (phase-based directional bias illustration) -->
+          <div class="figure-placeholder">
+            <i class="fas fa-chart-line"></i>
+            <div class="placeholder-label">Figure 3: Phase-Based Directional Bias</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem;">
+              Illustration of injected vs. aliased signals with (top) and without (bottom) phase shifting, showing how directional gimbal bias is controlled.
+            </div>
+            <div style="font-size:0.75rem; margin-top:0.75rem; color:#8a9aaa;">static/images/phase_bias.png</div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <h3 class="title is-5 section-title-accent">Adversarial Acoustic Gimbal Biasing</h3>
+          <p style="font-size:0.9rem; color:#444; line-height:1.75; margin-top:0.75rem;">
+            MEMS gyroscopes in gimbals measure angular velocity via the Coriolis force on a vibrating proof mass. When an external acoustic signal matches the gyroscope's resonant frequency <em>f<sub>n</sub></em>, it induces large oscillations that are digitized and aliased to a low frequency — appearing as false motion to the stabilization system.
+          </p>
+          <p style="font-size:0.9rem; color:#444; line-height:1.75; margin-top:0.75rem;">
+            The stabilization controller then applies <em>incorrect</em> servo compensation, causing a consistent directional drift along the target gimbal axis. Banshee modulates the signal phase in real time to control bias direction despite unknown sampling phase — creating a reliable pipeline for adversarial camera-view manipulation.
+          </p>
+        </div>
+      </div>
+
+      <div class="columns is-variable is-5 is-vcentered">
+        <div class="column is-half">
+          <h3 class="title is-5 section-title-accent">Exploiting Visual Tracker Vulnerabilities</h3>
+          <p style="font-size:0.9rem; color:#444; line-height:1.75; margin-top:0.75rem;">
+            Banshee exploits two fundamental weaknesses shared by all modern trackers:
+          </p>
+          <ul style="font-size:0.88rem; color:#444; margin-top:0.75rem; padding-left:1.2rem;">
+            <li style="margin-bottom:0.5rem;"><strong>Motion-based trackers (e.g., SORT, UCMC)</strong>: Assume small inter-frame displacement. Abrupt gimbal-induced camera shifts create large apparent jumps, breaking object association.</li>
+            <li><strong>Appearance-aware trackers (e.g., SiamRPN, KCF)</strong>: Search within a spatial window around the predicted location. Abrupt gimbal displacement moves the true target outside the search region, reducing matching reliability.</li>
+          </ul>
+        </div>
+        <div class="column is-half">
+          <!-- TODO: Replace with Figure 4 from the paper (tracker vulnerability illustration) -->
+          <div class="figure-placeholder">
+            <i class="fas fa-exchange-alt"></i>
+            <div class="placeholder-label">Figure 4: Visual Tracker Vulnerability</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem;">
+              Illustration of how malicious gimbal motion causes both motion-based and appearance-aware trackers to switch association from the true target (T2P) to the false target (F2P).
+            </div>
+            <div style="font-size:0.75rem; margin-top:0.75rem; color:#8a9aaa;">static/images/tracker_vulnerability.png</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EVALUATION ── -->
+  <section class="section" id="evaluation" style="background: var(--banshee-light-bg);">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom:0.5rem;">Evaluation</h2>
+      <p class="has-text-centered" style="color:#666; margin-bottom:2.5rem;">Extensive evaluation across simulation and physical experiments validates Banshee's effectiveness.</p>
+
+      <!-- Evaluation image carousel -->
+      <h3 class="title is-5 section-title-accent" style="margin-bottom:1.5rem;">Simulation Results</h3>
+      <section class="hero is-small" style="margin-bottom:2rem; background:transparent;">
+        <div class="hero-body" style="padding:0;">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item">
+                <!-- TODO: Replace with Figure 12 from the paper (simulated target switch demonstration) -->
+                <div class="figure-placeholder" style="min-height:320px;">
+                  <i class="fas fa-camera"></i>
+                  <div class="placeholder-label">Figure 12: Simulated Target Switch Attack</div>
+                  <div style="font-size:0.82rem; margin-top:0.5rem;">Demonstration of a successful simulated Banshee target switch. True prediction shown in blue, false prediction in red, gimbal motion arrows in yellow.</div>
+                  <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/sim_attack_demo.png</div>
+                </div>
+                <h2 class="subtitle has-text-centered" style="font-size:0.88rem; margin-top:0.75rem;">Successful target switch attack in Gazebo simulation (SiamRPN tracker, urban environment).</h2>
+              </div>
+              <div class="item">
+                <!-- TODO: Replace with Figure 5 from the paper (spectral analysis accuracy) -->
+                <div class="figure-placeholder" style="min-height:320px;">
+                  <i class="fas fa-chart-bar"></i>
+                  <div class="placeholder-label">Figure 5: Spectral Analysis Accuracy at 7744 Hz</div>
+                  <div style="font-size:0.82rem; margin-top:0.5rem;">Reconstructed signal (bottom) vs. raw gyroscope readings (top) showing accuracy of the Gimbal Acoustic Response Model.</div>
+                  <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/spectral_analysis.png</div>
+                </div>
+                <h2 class="subtitle has-text-centered" style="font-size:0.88rem; margin-top:0.75rem;">Spectral analysis accuracy for HighEndDrone at resonant frequency 7744 Hz.</h2>
+              </div>
+              <div class="item">
+                <!-- TODO: Replace with Figure 7 from the paper (online gimbal biasing traces) -->
+                <div class="figure-placeholder" style="min-height:320px;">
+                  <i class="fas fa-wave-square"></i>
+                  <div class="placeholder-label">Figure 7: Online Gimbal Biasing Traces</div>
+                  <div style="font-size:0.82rem; margin-top:0.5rem;">100 integrated angle traces over 1 second showing consistent directional gimbal rotation for different amplitudes, validating the online biasing methodology.</div>
+                  <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/gimbal_biasing_traces.png</div>
+                </div>
+                <h2 class="subtitle has-text-centered" style="font-size:0.88rem; margin-top:0.75rem;">Online gimbal biasing: integrated angle over time showing consistent directional bias at 23232 Hz.</h2>
+              </div>
+              <div class="item">
+                <!-- TODO: Replace with Figure 11 from the paper (target switch frame distribution) -->
+                <div class="figure-placeholder" style="min-height:320px;">
+                  <i class="fas fa-bar-chart"></i>
+                  <div class="placeholder-label">Figure 11: Target Switch Frame Distribution</div>
+                  <div style="font-size:0.82rem; margin-top:0.5rem;">Distribution showing 82.9% of successful attacks achieve target switch for ≥2 consecutive frames, with 74.8% persisting for ≥10 frames.</div>
+                  <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/frame_distribution.png</div>
+                </div>
+                <h2 class="subtitle has-text-centered" style="font-size:0.88rem; margin-top:0.75rem;">Distribution of consecutive target switch frames, showing most attacks achieve persistent target confusion.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results Table -->
+      <h3 class="title is-5 section-title-accent" style="margin-bottom:1rem;">Attack Success Rates (Simulation)</h3>
+      <p style="font-size:0.88rem; color:#555; margin-bottom:1rem;">Switch/Disable success rates across 5 trackers on 2 commercial drone gimbal systems (108 trials per configuration).</p>
+      <div class="table-container" style="margin-bottom:2.5rem;">
+        <table class="table is-fullwidth is-bordered results-table">
+          <thead>
+            <tr>
+              <th>Tracker</th>
+              <th>Normal (Switch/Disable)</th>
+              <th>Noisy (Switch/Disable)</th>
+              <th>HighEndDrone (Switch/Disable)</th>
+              <th>MidEndDrone (Switch/Disable)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>SORT</strong></td>
+              <td>11.1% / 24%</td>
+              <td>0% / 75%</td>
+              <td>59.3% / 94.4%</td>
+              <td>55.6% / 96.3%</td>
+            </tr>
+            <tr>
+              <td><strong>UCMC</strong></td>
+              <td>0% / 0%</td>
+              <td>6% / 6%</td>
+              <td>68.5% / 92.6%</td>
+              <td>61.1% / 87.0%</td>
+            </tr>
+            <tr>
+              <td><strong>SiamRPN</strong></td>
+              <td>0% / 0%</td>
+              <td>83.3% / 88.9%</td>
+              <td>90.2% / 93.1%</td>
+              <td>90.2% / 93.1%</td>
+            </tr>
+            <tr class="highlight-row">
+              <td><strong>DaSiam</strong></td>
+              <td>0% / 0%</td>
+              <td>0% / 0%</td>
+              <td><strong>92.6% / 98.1%</strong></td>
+              <td><strong>97.2% / 100%</strong></td>
+            </tr>
+            <tr>
+              <td><strong>KCF</strong></td>
+              <td>0% / 0%</td>
+              <td>17.6% / 17.6%</td>
+              <td>70.3% / 94.4%</td>
+              <td>72.2% / 87.5%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Physical experiments -->
+      <h3 class="title is-5 section-title-accent" style="margin-bottom:1.5rem;">Physical / Real-World Experiments</h3>
+      <div class="columns is-variable is-4">
+        <div class="column is-half">
+          <!-- TODO: Replace with Figure 10 from the paper (physical vs simulation gimbal motion) -->
+          <div class="figure-placeholder" style="min-height:260px;">
+            <i class="fas fa-drone"></i>
+            <div class="placeholder-label">Figure 10: Physical vs. Simulation Gimbal Motion</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem;">Acoustic gimbal motion injection trace in the physical world (solid) vs. simulation (dotted), showing close correspondence across roll/pitch/yaw axes.</div>
+            <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/physical_vs_sim.png</div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <!-- TODO: Replace with Figure 9 from the paper (orientation independence) -->
+          <div class="figure-placeholder" style="min-height:260px;">
+            <i class="fas fa-compass"></i>
+            <div class="placeholder-label">Figure 9: Gimbal Orientation Independence</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem;">Average amplitude difference from neutral orientation across pitch/roll/yaw over various orientations, confirming that acoustic gimbal biasing is independent of gimbal orientation.</div>
+            <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/images/orientation_independence.png</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:12px; padding:1.5rem 2rem; box-shadow:0 2px 12px rgba(0,0,0,0.07); margin-top:1.5rem; border-left:4px solid var(--banshee-red);">
+        <p style="font-size:0.95rem; color:#333; line-height:1.8;">
+          <strong>Real-world results:</strong> Real-world benchtop and in-flight black-box attacks against commercial drones across varied scenarios achieve an overall <strong>95.5% attack success rate</strong>. Physical experiments validate the online biasing methodology, confirming that consistent, directionally controlled gimbal rotation is achievable in practice with only a small degree of error.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VIDEO PRESENTATIONS ── -->
+  <section class="section" id="videos" style="background:#fff;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom:2rem;">Video Demonstrations</h2>
+
+      <!-- Main video presentation -->
+      <h3 class="title is-5 section-title-accent" style="margin-bottom:1rem;">Video Presentation</h3>
+      <div class="columns is-centered has-text-centered" style="margin-bottom:2.5rem;">
+        <div class="column is-four-fifths">
+          <!-- TODO: Replace YOUTUBE_VIDEO_ID with actual YouTube video ID when uploaded -->
+          <div class="publication-video">
+            <div class="video-placeholder" style="min-height:340px;">
+              <i class="fab fa-youtube"></i>
+              <div class="placeholder-label">YouTube Video Presentation</div>
+              <div style="font-size:0.85rem; margin-top:0.5rem; color:#8ab;">
+                Replace the iframe src with the actual YouTube video embed URL.
+              </div>
+              <div style="font-size:0.75rem; margin-top:0.5rem; color:#6a8090;">
+                &lt;iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" ...&gt;
+              </div>
+            </div>
+          </div>
+          <!-- Uncomment when YouTube video is ready:
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          -->
+        </div>
+      </div>
+
+      <!-- Attack demo video carousel -->
+      <h3 class="title is-5 section-title-accent" style="margin-bottom:1rem;">Attack Scenario Demos</h3>
+      <div id="video-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Replace with real-world in-flight target switch demo video -->
+          <div class="video-placeholder" style="min-height:280px;">
+            <i class="fas fa-drone-alt"></i>
+            <div class="placeholder-label">Demo 1: In-Flight Target Switch (Takeover)</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem; color:#8ab;">A UAV following its owner switches to the attacker-controlled pedestrian due to Banshee acoustic injection.</div>
+            <div style="font-size:0.75rem; margin-top:0.5rem; color:#6a8090;">static/videos/demo_takeover.mp4</div>
+          </div>
+          <!-- Uncomment when video is ready:
+          <video poster="static/images/demo1_poster.jpg" id="video1" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/demo_takeover.mp4" type="video/mp4">
+          </video>
+          -->
+        </div>
+        <div class="item item-video2">
+          <!-- TODO: Replace with target loss demo video -->
+          <div class="video-placeholder" style="min-height:280px;">
+            <i class="fas fa-satellite-dish"></i>
+            <div class="placeholder-label">Demo 2: Target Loss (Escape)</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem; color:#8ab;">A UAV under surveillance loses track of the target, allowing the target to escape the camera field of view.</div>
+            <div style="font-size:0.75rem; margin-top:0.5rem; color:#6a8090;">static/videos/demo_escape.mp4</div>
+          </div>
+          <!-- Uncomment when video is ready:
+          <video poster="static/images/demo2_poster.jpg" id="video2" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/demo_escape.mp4" type="video/mp4">
+          </video>
+          -->
+        </div>
+        <div class="item item-video3">
+          <!-- TODO: Replace with benchtop physical experiment demo -->
+          <div class="video-placeholder" style="min-height:280px;">
+            <i class="fas fa-microscope"></i>
+            <div class="placeholder-label">Demo 3: Benchtop Physical Experiment</div>
+            <div style="font-size:0.82rem; margin-top:0.5rem; color:#8ab;">Benchtop demonstration of acoustic injection causing gimbal oscillations and directional drift in a commercial drone gimbal.</div>
+            <div style="font-size:0.75rem; margin-top:0.5rem; color:#6a8090;">static/videos/demo_benchtop.mp4</div>
+          </div>
+          <!-- Uncomment when video is ready:
+          <video poster="static/images/demo3_poster.jpg" id="video3" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/demo_benchtop.mp4" type="video/mp4">
+          </video>
+          -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAPER POSTER ── -->
+  <section class="section" id="poster" style="background: var(--banshee-light-bg);">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 section-title-accent" style="display:inline-block; margin-bottom:1.5rem;">Poster</h2>
+        <!-- TODO: Replace with the IEEE S&P 2026 conference poster PDF -->
+        <div class="figure-placeholder" style="min-height:200px; margin-bottom:1rem;">
+          <i class="fas fa-file-image"></i>
+          <div class="placeholder-label">Conference Poster (IEEE S&P 2026)</div>
+          <div style="font-size:0.82rem; margin-top:0.5rem;">Replace this placeholder with the iframe below once your poster PDF is ready.</div>
+          <div style="font-size:0.75rem; margin-top:0.5rem; color:#8a9aaa;">static/pdfs/banshee_poster.pdf</div>
+        </div>
+        <!-- Uncomment when poster is ready:
+        <iframe src="static/pdfs/banshee_poster.pdf" width="100%" height="600" style="border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.12);"></iframe>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BIBTEX ── -->
+  <section class="section" id="BibTeX" style="background:#fff;">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
+        <h2 class="title is-3 section-title-accent" style="display:inline-block; margin-bottom:0;">BibTeX</h2>
         <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
           <i class="fas fa-copy"></i>
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{li2026banshee,
+  title     = {Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection},
+  author    = {Li, Jiarui and Brewington, Joseph and Zhang, Qingzhao and Mao, Z. Morley},
+  booktitle = {IEEE Symposium on Security and Privacy (S\&P)},
+  year      = {2026},
+  url       = {https://YOUR_DOMAIN.com/banshee}
 }</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
 
+  </main>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content has-text-centered">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+              Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+            </p>
+            <p style="font-size:0.85rem; color:#888;">
+              For responsible disclosure information and proof-of-concept code, please see the <a href="https://github.com/YOUR_REPO" target="_blank">GitHub repository</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
