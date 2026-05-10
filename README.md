@@ -18,6 +18,9 @@ Example project pages built using this template are:
 - https://horwitz.ai/3d_ads/
 - https://vision.huji.ac.il/ssrl_ad
 - https://vision.huji.ac.il/deepsim
+- https://smsnobin77.github.io/Awesome-Multimodal-Unlearning/
+- https://dipta007.github.io/GanitLLM/
+- https://dipta007.github.io/Q2E/
 
 
 
